@@ -1,0 +1,15 @@
+{
+    //double quotes are required
+    "presets": [
+        ["@babel/preset-env", {
+            "targets":{
+                //specifies how code will be compiled and which browsers will be supported-> browsers that have more than 1% of the market share and the last two versions of each browser
+                "browsers": [">1%", "last 2 versions"]
+            }
+        }],
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties"
+    ]
+}
